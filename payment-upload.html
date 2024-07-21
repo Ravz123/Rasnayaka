@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Payment Upload</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <header>
@@ -13,18 +13,8 @@
     <main>
         <section class="form-section">
             <h2>Upload Payment Receipt</h2>
-            <form action="payment-process.php" method="POST" enctype="multipart/form-data">
-                <label for="name">Name</label>
-                <input type="text" id="name" name="name" required>
-                
-                <label for="whatsapp">WhatsApp Number</label>
-                <input type="text" id="whatsapp" name="whatsapp" required>
-                
-                <label for="receipt">Bank Transfer Receipt</label>
-                <input type="file" id="receipt" name="receipt" required>
-                
-                <button type="submit" class="btn">Upload</button>
-            </form>
+            <p>Please fill out the following form to upload your payment receipt:</p>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfC3DNLgZ_lXbOckfzMa8mwuevm2Zhlu5j1Mf08RzJCO5RdTA/viewform?usp=sf_link" class="btn">Upload Payment Receipt</a>
         </section>
     </main>
     <footer>
