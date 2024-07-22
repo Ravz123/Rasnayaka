@@ -3,38 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ayurveda Classes</title>
+    <title>Ayurvedic Class</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Ayurveda Classes</h1>
-        <nav>
-            <a href="login.html">Login</a>
-            <a href="register.html">Register</a>
-        </nav>
+        <div class="header-content">
+            <h1>Welcome to Ayurvedic Healing</h1>
+            <p>Embrace the natural way to health and wellness</p>
+            <a href="#about" class="btn">Learn More</a>
+        </div>
     </header>
-    <main>
-        <section class="intro">
-            <h2>Welcome to Ayurveda Classes</h2>
-            <p>Join our classes to learn about Ayurveda.</p>
-        </section>
-        <section class="classes">
-            <h2>Our Classes</h2>
-            <div class="class">
-                <h3>Saturday Class</h3>
-                <p>Details about Saturday class...</p>
-                <a href="class-detail.html?saturday" class="btn">Details</a>
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#classes">Classes</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <section id="about" class="about">
+        <h2>About Our Classes</h2>
+        <p>Our Ayurvedic classes offer a deep dive into the ancient practice of Ayurveda, focusing on natural healing, diet, and lifestyle adjustments to promote holistic well-being.</p>
+    </section>
+    <section id="classes" class="classes">
+        <h2>Our Classes</h2>
+        <div class="class-container">
+            <div class="class-item">
+                <img src="path/to/your/image1.jpg" alt="Class 1">
+                <h3>Beginner's Ayurveda</h3>
+                <p>An introduction to the basics of Ayurveda, perfect for newcomers.</p>
             </div>
-            <div class="class">
-                <h3>Monday Class</h3>
-                <p>Details about Monday class...</p>
-                <a href="class-detail.html?monday" class="btn">Details</a>
+            <div class="class-item">
+                <img src="path/to/your/image2.jpg" alt="Class 2">
+                <h3>Advanced Techniques</h3>
+                <p>Deepen your knowledge with advanced Ayurvedic practices.</p>
             </div>
-        </section>
-    </main>
+            <div class="class-item">
+                <img src="path/to/your/image3.jpg" alt="Class 3">
+                <h3>Ayurvedic Cooking</h3>
+                <p>Learn to cook delicious and healthy Ayurvedic meals.</p>
+            </div>
+        </div>
+    </section>
+    <section id="testimonials" class="testimonials">
+        <h2>What Our Students Say</h2>
+        <div class="testimonial-container">
+            <div class="testimonial-item">
+                <p>"The classes have changed my life. I feel healthier and more balanced."</p>
+                <h4>- Student A</h4>
+            </div>
+            <div class="testimonial-item">
+                <p>"The instructors are knowledgeable and caring. Highly recommend."</p>
+                <h4>- Student B</h4>
+            </div>
+            <div class="testimonial-item">
+                <p>"A wonderful journey into the world of Ayurveda. I've learned so much."</p>
+                <h4>- Student C</h4>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <input type="text" placeholder="Name" required>
+            <input type="email" placeholder="Email" required>
+            <textarea placeholder="Message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
     <footer>
-        <p>&copy; 2024 Ayurveda Classes</p>
+        <p>&copy; 2024 Ayurvedic Healing. All rights reserved.</p>
     </footer>
 </body>
 </html>
